@@ -1,0 +1,91 @@
+<html lang="en">
+<style>
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 1, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .fix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+h1{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+} */
+.cancelbtn {
+  background-color: #f44336;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  width: 100%;
+  border-radius: 12px;
+}
+.container {
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+form{
+    background-color: rgb(41, 236, 220);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+input{
+    width: 200px;
+    height: 25px;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/Loginpage" style="border:1px solid #ccc">
+        <div class="img">
+            <img src="./user-icon-on-transparent-background-free-png.webp" alt="user image" width="500px" height="500px">
+        </div>
+        <div class="container">
+            <h1>Sign in</h1>
+            <div class="label1">
+                <label for="email"><b>Email</b></label><br>
+                <input type="text" placeholder="Email" name="email" required>
+            </div>
+            <br>
+            <div class="label2">
+                <label for="psw"><b>Password</b></label><br>
+                <input type="password" placeholder="Password" name="psw" required>
+            </div>
+
+            <div class="fix">
+                <button type="button" class="cancelbtn"><a href="./index.html" style="color:white;">Cancel</a></button><br>
+                <button type="submit" class="signupbtn"><a href="./home.html" style="color:white;">Login</a></button>
+              </div>
+        </div>      
+    </form>
+</body>
+</html>
